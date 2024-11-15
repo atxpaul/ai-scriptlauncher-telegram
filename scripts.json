@@ -1,0 +1,12 @@
+{
+    "health_check": {
+        "script_name": "scripts/health_check.py",
+        "description": "Comprueba el estado de un servidor",
+        "args": ["names"]
+    },
+    "data_backup": {
+        "script_name": "scripts/data_backup.py",
+        "description": "Realiza un backup de datos",
+        "args": ["source", "destination"]
+    }
+}
